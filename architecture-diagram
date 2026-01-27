@@ -1,0 +1,76 @@
++---------------------------------------------------+
+|                   Presentation Layer              |
+|---------------------------------------------------|
+|  Console UI                                       |
+|  - Login / Menu Screens                           |
+|  - Role-based Menus (Employee / Manager / Admin)  |
++---------------------------------------------------+
+
+                     |
+                     v
+
++---------------------------------------------------+
+|                   Service Layer                   |
+|---------------------------------------------------|
+|  Authentication Service                           |
+|  Employee Service                                 |
+|  Leave Management Service                         |
+|  Performance Management Service                   |
+|  Notification Service                             |
+|  Admin Configuration Service                      |
++---------------------------------------------------+
+
+                     |
+                     v
+
++---------------------------------------------------+
+|                 Business Logic Layer               |
+|---------------------------------------------------|
+|  Validation Logic                                 |
+|  Role-based Access Control                        |
+|  Leave Policy Rules                               |
+|  Performance Review Rules                         |
+|  Notification Triggers                            |
++---------------------------------------------------+
+
+                     |
+                     v
+
++---------------------------------------------------+
+|                   DAO Layer                       |
+|---------------------------------------------------|
+|  EmployeeDAO                                      |
+|  LeaveDAO                                         |
+|  PerformanceDAO                                   |
+|  NotificationDAO                                  |
+|  AdminDAO                                         |
++---------------------------------------------------+
+
+                     |
+                     v
+
++---------------------------------------------------+
+|                   Database Layer                  |
+|---------------------------------------------------|
+|  Employee Table                                   |
+|  Manager Mapping                                  |
+|  Leave Records                                    |
+|  Leave Balance                                    |
+|  Performance Reviews                              |
+|  Goals                                            |
+|  Notifications                                    |
+|  Departments & Designations                       |
+|  Holiday Calendar                                 |
+|  Audit Logs                                       |
++---------------------------------------------------+
+
+                     |
+                     v
+
++---------------------------------------------------+
+|                 Cross-Cutting Concerns             |
+|---------------------------------------------------|
+|  JDBC (DB Connectivity)                            |
+|  Log4J (Logging)                                  |
+|  JUnit (Testing)                                  |
++---------------------------------------------------+

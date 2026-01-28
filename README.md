@@ -194,7 +194,7 @@ Employee views performance review
 ### Database Name
 
 ```
-rev_workforce_hrm
+hrm_console
 ```
 
 ### Major Tables

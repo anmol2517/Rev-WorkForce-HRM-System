@@ -128,7 +128,8 @@ rev-workforce-hrm
 │   └── Main.java
 │
 ├── src/main/resources
-│   └── database.properties
+│   ├── database.properties
+│   └── log4j2.xml
 │
 ├── pom.xml
 └── README.md

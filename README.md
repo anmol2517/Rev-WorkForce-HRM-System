@@ -79,22 +79,33 @@ rev-workforce-hrm
 │
 ├── src/main/java/com/revature
 │   ├── dao
-│   │   ├── EmployeeDAO / EmployeeDAOImpl
+│   │   ├── AnnouncementDAO / AnnouncementDAOImpl
+│   │   ├── AuditLogDAO / AuditLogDAOImpl
 │   │   ├── DepartmentDAO / DepartmentDAOImpl
 │   │   ├── DesignationDAO / DesignationDAOImpl
-│   │   ├── LeaveRequestDAO / LeaveRequestDAOImpl
+│   │   ├── EmployeeDAO / EmployeeDAOImpl
+│   │   ├── GenericDAO 
+│   │   ├── GoalDAO / GoalDAOImpl
+│   │   ├── HolidayDAO / HolidayDAOImpl
 │   │   ├── LeaveBalanceDAO / LeaveBalanceDAOImpl
+│   │   ├── LeaveRequestDAO / LeaveRequestDAOImpl
 │   │   ├── LeaveTypeDAO / LeaveTypeDAOImpl
 │   │   ├── NotificationDAO / NotificationDAOImpl
-│   │   ├── PerformanceReviewDAO / PerformanceReviewDAOImpl
-│   │   └── GenericDAO
+│   │   └── PerformanceReviewDAO / PerformanceReviewDAOImpl
+│   │ 
+│   ├── exception
+│   │   └── AppException
 │   │
 │   ├── model
-│   │   ├── Employee
+│   │   ├── Announcement
+│   │   ├── AuditLog
 │   │   ├── Department
 │   │   ├── Designation
-│   │   ├── LeaveRequest
+│   │   ├── Employee
+│   │   ├── Goal
+│   │   ├── Holiday
 │   │   ├── LeaveBalance
+│   │   ├── LeaveRequest
 │   │   ├── LeaveType
 │   │   ├── Notification
 │   │   └── PerformanceReview
@@ -114,13 +125,14 @@ rev-workforce-hrm
 │   │   └── NotificationUI
 │   │
 │   ├── util
-│   │   ├── DBConnection
 │   │   ├── ConnectionFactory
-│   │   ├── PasswordUtil
-│   │   ├── ValidationUtil
+│   │   ├── ConsoleUtil
+│   │   ├── Constants
 │   │   ├── DateUtil
+│   │   ├── DBConnection
+│   │   ├── PasswordUtil
 │   │   ├── SessionManager
-│   │   └── Constants
+│   │   └── ValidationUtil
 │   │
 │   ├── exception
 │   │   └── AppException

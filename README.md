@@ -293,6 +293,8 @@ com.revature.Main
 * **Build Tool:** Maven
 * **Connectivity:** JDBC
 * **Security:** Password Hashing
+* **Logging:** Log4j (logging for debugging & monitoring)
+* **Testing:** JUnit (unit testing for core services)
 
 ---
 

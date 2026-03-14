@@ -29,14 +29,14 @@ public class DBConnection {
 
             if (input == null) {
                 URL = "jdbc:mysql://localhost:3306/hrm_console";
-                USERNAME = "root";
-                PASSWORD = "Scar2511@#";
+                USERNAME = "your-username";
+                PASSWORD = "your-password";
                 DRIVER = "com.mysql.cj.jdbc.Driver";
             } else {
                 props.load(input);
                 URL = props.getProperty("db.url", "jdbc:mysql://localhost:3306/hrm_console");
-                USERNAME = props.getProperty("db.username", "root");
-                PASSWORD = props.getProperty("db.password", "Scar2511@#");
+                USERNAME = props.getProperty("db.username", "your-username");
+                PASSWORD = props.getProperty("db.password", "your-password");
                 DRIVER = props.getProperty("db.driver", "com.mysql.cj.jdbc.Driver");
             }
 

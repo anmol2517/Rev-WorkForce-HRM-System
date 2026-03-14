@@ -11,8 +11,8 @@ public class ConnectionFactory {
 //   Database Credentials
 
     private final String url = "jdbc:mysql://localhost:3306/hrm_console";
-    private final String user = "root";
-    private final String password = "Scar2511@#";
+    private final String user = "your-username";
+    private final String password = "your-password";
 
     private ConnectionFactory() {
         try {
